@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,300&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://use.fontawesome.com/e713b4533e.js"></script>
+    <title>Project</title>
+</head>
+<body>
+    <section class="container">
+        <header id="header">
+            <!-- logo -->
+            <div id="logo">
+                <img id="logo-img" width="150px" src="./eduford_img/logo.png" />
+            </div>
+
+            <!-- menu -->
+            <div id="menu">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul id="menu-list">
+                    <li> <a href="">Home</a> </li>
+                    <li> <a href=""> About </a> </li>
+                    <li> <a href="">Course</a></li>
+                    <li> <a href="">Blog</a> </li>
+                    <li> <a href="">Contact</a> </li>
+                </ul>
+            </div>
+
+            <i id="hamburgerIcon" class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+
+        </header>
+        <!-- banner-Text -->
+        <div id="bannerText">
+           <h1>World's Biggest University</h1>
+           <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nostrum beatae temporibus, obcaecati numquam et, aut sit velit voluptas facilis reprehenderit modi dolorum veritatis unde, rerum nobis. 
+        </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!-- courses Section starts -->
+    <section id="courses" class="uni-margin">
+        <div class="course-heading">
+            <h1>Courses We Offer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="row">
+            <div class="course-card">
+                <h2>Intermediate</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis aut mollitia in consequuntur iusto ratione iste? Sequi fugiat aliquam facilis.</p>
+            </div>
+            <div class="course-card">
+                <h2>Degree</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis aut mollitia in consequuntur iusto ratione iste? Sequi fugiat aliquam facilis.</p>
+            </div>
+            <div class="course-card">
+                <h2>Post Graduation</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis aut mollitia in consequuntur iusto ratione iste? Sequi fugiat aliquam facilis.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="global" class="uni-margin">
+        <div class="course-heading">
+            <h1>Our Global Campus</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="row">
+            <div id="campus-col">
+                <img src="./eduford_img/london.png">
+                <div class="campus-layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+            <div id="campus-col">
+                <img src="./eduford_img/newyork.png" >
+                <div class="campus-layer">
+                    <h3>Newyork</h3>
+                </div>
+            </div>
+            <div id="campus-col">
+                <img src="./eduford_img/washington.png">
+                <div class="campus-layer">
+                    <h3>Washington</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="facilities" class="uni-margin">
+        <div class="course-heading">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="row">
+            <div id="campus-col">
+                <img src="./eduford_img/library.png">
+                <div class="mt-5">
+                    <h3>World Class Library</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quas.</p>
+                </div>
+            </div>
+            <div id="campus-col">
+                <img src="./eduford_img/basketball.png" >
+                <div class="mt-5">
+                    <h3>Largest Playground</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quas.</p>
+                </div>
+            </div>
+            <div id="campus-col">
+                <img src="./eduford_img/cafeteria.png">
+                <div class="mt-5">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="course-heading">
+            <h1>What Our Student Says</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="row">
+            <div class="testimonial-card">
+                <img class="round-avatar" src="./eduford_img/user1.jpg">
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ad voluptatem illum asperiores facilis autem?</p>
+                    <h3>Christine Berkley</h3>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <img class="round-avatar" src="./eduford_img/user2.jpg">
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ad voluptatem illum asperiores facilis autem?</p>
+                    <h3>David Byer</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="./main.js" ></script>
+</body>
+</html>
